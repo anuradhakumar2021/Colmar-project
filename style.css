@@ -1,0 +1,684 @@
+*{
+font-family:'Roboto', sans-serif;
+/* box-sizing: border-box; */
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+height: 64px;
+}
+#on-campus{
+  display: none;
+}
+#online{
+  display: none;
+}
+#login{
+  display: none;
+}
+#logo{
+display: inline-flex;
+margin-left: 24px;
+padding: auto;
+}
+
+#academy{
+margin-bottom: auto;
+height: 32px;
+padding: auto;
+}
+
+.nav-links p{
+display: inline-flex;
+margin-right: 16px;
+}
+
+/*banner section*/
+.banner-container{
+display: inline-flex;
+background-color: lightgray;
+width: 100%;
+height: auto;
+}
+
+.banner-text-container{
+width: 40%;
+height: auto;
+margin: auto;
+}
+
+#imageContainer{
+width: 60%;
+height: auto;
+margin: 32px 24px;
+}
+
+#banner-text{
+color: rgb(67,66,66);
+align-content: center;
+margin: 32px 24px;
+}
+
+#banner-title-p{
+padding: 24px 0px;
+}
+
+#start-button{
+color: white;
+background-color: rgb(99,99,99);
+display: block;
+width: 60%;
+padding: 8px 0 8px;
+}
+
+/*Second page */
+
+.second-p-main-container{
+width: 100%;
+height: auto;
+display: inline-flex;
+padding-top: 32px;
+padding-bottom: 32px;
+
+}
+
+.informationContainer{
+width: 60%;
+height: auto;
+display: inline-block;
+margin: 24px;
+padding-right: 24px;
+}
+
+.second-column-container-2{
+display: inline-block;
+height: auto;
+margin: 0;
+}
+
+.information-text-container{
+width: 65%;
+height: auto;
+display: inline-block;
+margin: 24px;
+padding-right: 24px;
+line-height: 2;
+}
+
+.first-image-container-2{
+width: 96%;
+height: auto;
+display: inline-flex;
+padding: 16px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.campus-img-container-2{
+width: 100%;
+height: auto;
+display: inline-flex;
+padding: 16px;
+box-shadow: 0 8px 16px 0  rgba(0,0,0,0.2);
+}
+
+.guest-img-container-2{
+width: 100%;
+height: auto;
+display: inline-flex;
+padding: 16px;
+box-shadow: 0 8px 16px 0 lightgray;
+}
+
+.orientation-text{
+width: 100%;
+height: auto;
+display: inline-block;
+padding: 32px;
+line-height: 1.4;
+}
+
+.campus-text{
+width: 100%;
+height: auto;
+display: inline-block;
+padding: 32px;
+line-height: 2;
+}
+
+.guest-text{
+width: 100%;
+height: auto;
+display: inline-block;
+padding: 32px;
+line-height: 2;
+}
+
+.campus-image-container{
+display: inline-flex; 
+height: auto;
+
+}
+
+.guest-image-container{
+display: inline-flex; 
+height: auto;
+background-color: lightgray;
+}
+
+#author{
+padding-top: 32px;
+}
+
+#orientationImg{
+width: 35%;
+height: auto;
+padding:16px;
+}
+
+#campusImg{
+width: 35%;
+height: auto;
+padding:16px;
+} 
+
+#guestImg{
+width: 35%;
+height:auto;
+padding:16px;
+} 
+
+/* Page-3section */
+.Page-3-container{
+background-color: rgb(241, 238, 238);
+width: 100%;
+padding-top: 32px;
+padding-bottom: 32px;
+
+}
+
+.ThesisContainer{
+width: 65%;
+height: auto;
+display: inline-block;
+margin: 24px;
+padding-right: 24px;
+}
+
+.page-3-title h1{
+text-align: center;
+}
+
+.page-3-title{
+margin: 32px;
+}
+
+.card{
+margin-left:16px ;
+padding-bottom: 24px;
+background-color: white;
+}
+
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+cursor: pointer;
+}
+
+.first-row-cards{
+display: inline-flex;
+margin-right: 72px;
+margin-left: 72px;
+padding: 32px;
+padding-bottom: 16px;
+}
+
+.card-text-container{
+margin-bottom: 16px;
+margin-top: 24px; 
+margin-left: 24px;
+height: 180px;
+width: 300px;
+}
+
+.card-text-container p{
+padding: 0px;
+}
+
+.courses{
+padding-top: 8px;
+padding-bottom: 8px;
+}
+.second-row-cards{
+display: inline-flex;
+margin-right: 72px;
+margin-left: 72px;
+padding: 32px;
+padding-bottom: 16px;
+}
+
+    /*thesis page section*/
+.Thesis-container-5{
+width: 100%;
+height: auto;
+}
+
+.Page-4-container{
+width: 100%;
+background-color: white;
+height: auto;
+display: inline-flex;
+padding-top: 32px;
+padding-bottom: 32px;
+margin: auto;
+}
+
+.Thesis-exhibit-container{
+margin-right: 24px;
+margin-left: 24px;
+margin-top: 32px;
+margin-bottom: 32px;
+width: 100%;
+height: auto;
+}
+
+.Thesis-title h1{
+text-align: center;
+}
+
+.Thesis-title{
+padding-top: 32px;
+/* padding-bottom: 32px; */
+}
+
+#Thesis-exhibit-text-title{
+width: 90%;
+padding-top: 24px;
+padding-bottom: 8px;
+}
+
+.Thesis-exhibit-text-container{
+width: 90%;
+height: auto;
+display: inline-block;
+padding-right: 24px;
+}
+
+#Thesis-exhibit-text-title-p{
+width: 100%;
+padding-bottom: 32px;
+line-height: 2;
+}
+
+.second-column-ThesisContainer-3{
+display: inline-block;
+width: 38%;
+height: auto;
+margin:0;
+
+}
+
+.ThesisContainer{
+width: 60%;
+height: auto;
+display: inline-block;
+margin: 0;
+padding-right: 0;
+}
+
+.fisma-img{
+width: 100%;
+height: auto;
+display: inline-flex;
+padding-left: 32px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+background-color: lightgray;
+}
+
+.now-and-then-img{
+width: 100%;
+height: auto;
+display: inline-flex;
+padding: 16px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.fisma-title{
+width: 45%;
+height: auto;
+display: inline-block;
+padding: 32px;
+padding-top: 70px;
+}  
+
+.now-and-then-title{
+width: 50%;
+height: auto;
+display: inline-block;
+padding: 32px;
+padding-top: 70px;
+} 
+
+/*footer */
+
+#foot-flex-start{
+text-align: left;
+}
+
+#foot-flex-end{
+/* padding-right: 24px; */
+text-align: right;
+padding-bottom: 45px;
+}
+
+.footer-container{
+width: 100%;
+padding-top: 16px;
+background-color: white;
+display: block;
+position: relative;
+border-top-style:ridge;
+border-top-color: lightgrey; 
+height: 100px;
+} 
+
+
+@media screen and (max-width: 767px){
+/*Banner section*/
+#academy{
+  display: none;
+}
+.nav-links p{
+  display: none;
+
+}
+#on-campus{
+  display: inline;
+  padding-left: 90px;
+  height: 50px;
+  padding-top: 10px;
+}
+#online{
+  display: inline;
+  padding-right: 100px;
+  padding-left: 40px;
+  height: 40px;
+  padding-top: 15px;
+}
+#login{
+  display: inline;
+  height: 40px;
+  padding-top: 15px;
+}
+.banner-container{
+display: block;
+width: 450px;
+height: auto;
+margin: 0;
+}
+#imageContainer{
+margin: 0;
+padding: 0;
+width: 100%;
+height: auto;
+}
+#imageContainer img{
+max-width: 100%;
+}
+.banner-text-container{
+width: 100%;
+height: auto;
+padding: 32px 16px;
+}
+#banner-text{
+  margin: 0;
+}
+#start-button{
+width: 400px;
+height: auto;
+padding: 8px;
+justify-content: center;
+}
+
+#information-image{
+display: none;
+}
+.information-text-container{
+display: none;  
+}
+.informationContainer{
+  display: none;
+}
+.second-column-container-2{
+display: block;
+width: 95%;
+height: auto;
+margin: 0;
+padding: 0;
+flex-direction: column;
+align-items: center;
+}
+
+.first-image-container-2{
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 450px;
+  height: auto; 
+}
+
+.Page-3-container{
+  width: 350px;
+}
+
+
+#orientationImg{
+ display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;  
+}
+.orientation-text{
+width: 100%;
+height: auto;
+padding: 32px 16px;
+}
+.campus-img-container-2{
+  display: block;
+  margin: 0;
+  padding: 0;
+  width:450px;
+  height: auto;  
+}
+.campus-text{
+  width: 100%;
+  height: auto;
+  padding: 32px 16px;  
+}
+.guest-img-container-2{
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 450px;
+  height: auto;  
+  background-color: white; 
+}
+.page-3-title{
+  width: 100%;
+  height: auto;
+  padding: 32px 16px;    
+}
+#campusImg{
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;   
+}
+.guest-text{
+  width: 100%;
+  height: auto;
+  padding: 32px 16px;   
+}
+.second-column-container-2{
+  width: 100%;
+  height: auto;
+  /* justify-content: center; */
+}
+.card img{
+  display: none;   
+}
+.card-text-container p{
+  display: none; 
+}
+.card{
+  width: 400px;
+  height: 50px;
+  background-color: rgb(221, 216, 216);
+  margin-right: 0%;
+  /* justify-content: center; */
+}
+
+.card-text-container {
+  width: 100%;
+  height: auto;
+  /* justify-content: center; */
+  text-align: center;
+  
+}
+
+.first-row-cards{
+  display: table-row;
+  width: 450px;
+  height:auto;
+  text-align: center;
+/* justify-items: center; */
+
+}
+.second-row-cards{
+  display: table-row;
+  width: 450px;
+  height:auto; 
+  text-align: center;
+}
+.page-3-title{
+  width: 100%;
+  height:auto;
+  text-align: center;
+}
+
+.page-3-title h1{
+  text-align: center;
+ 
+}
+.card-container{
+  width: 100%;
+  height:auto;
+}
+.Page-3-container{
+  width: 450px;
+}
+.card-text-container h3{
+  width: 100%;
+  height: auto; 
+  padding-top: 32px ; 
+  padding-bottom:8px ;
+  padding-right: 42px;
+ text-align: center;
+}
+.ThesisContainer{
+  width: 100%;
+  height: auto;
+
+}
+.Thesis-exhibit-container{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0; 
+}
+.Thesis-exhibit-text-container{
+  display: none;
+}
+.Thesis-title{
+  width: 100%;
+}
+#assets-video{
+  height: auto; 
+  width: 400px;
+  margin: 0;
+  padding: 0;
+}
+.second-column-ThesisContainer-3{
+  display: none;
+}
+#guestImg{
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;  
+}
+.footer-container{
+  width: 350px;
+  height: auto;  
+  padding: 16px;
+  margin: 0;
+}
+#foot-flex-start{
+  text-align: left;
+}
+#foot-flex-end{
+  display: none;
+}
+}
+/* 
+@media only screen and (max-width: 560px) {
+    footer {
+      padding: 4.8125rem 15% 0 15%;
+    }
+  }
+  @media only screen and (max-width: 990px) {
+  html {
+    font-size: 14px;
+  }
+}
+  @media only screen and (max-width: 820px) {
+  h1 {
+    padding-top: 7rem;
+    font-size: 6rem;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  header .logo-big {
+    display: none;
+  }
+
+  header .logo-small {
+    display: block;
+  }
+}
+media only screen and (max-width: 540px) {
+  header {
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  header .logo-small {
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (max-width: 820px) {
+    #color-guide .color {
+      flex-direction: column;
+      align-items: center;
+    }
+} */
